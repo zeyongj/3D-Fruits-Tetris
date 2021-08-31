@@ -11,6 +11,9 @@
 - I try to satisfy the addtional game logic and the certain press operations.
 - I set the executable as "FruitTetris" as the requirement in the instruction.
 
+## Execution
+
+- Compile: `make`.
 
 ## License
 
