@@ -3,17 +3,20 @@
 ## Introduction
 - SFU CMPT 361: Introduction to Computer Graphics, Individual Project: 3D Fruit Tetris via C++ and OpenGL.
 - This project is to update 2D Fruits Tetris game into 3D, and control a robot
-  arm to play this game. 
-- Following the path, first I set default falling time and number of colors.
-- I create the 5 colors representing 5 kinds of fruits. And also, I create matrices of the different shapes of I, S and L.
+  arm to play this game.
+- Following the path, I do not change too many codes from Assignment 1, but I do change some variable names as well as the format to be clearer.
+- Given  the colour of grey is needed, and therefore, I add the grey colour in the FruitTetris3D.cpp.
+- I create the special function of showing the camera.
+- I change most of the code representing the shapes and directions into 3D version.
 - I check whether the stack-up occurs, and determine whether the game need too stop or not.
 - I also consider the problem of key stroke interaction, tile movements and colliding.
 - I try to satisfy the addtional game logic and the certain press operations.
-- I set the executable as "FruitTetris" as the requirement in the instruction.
+- I set the executable as "FruitTetris3D".
 
 ## Execution
 
 - Compile: `make`.
+- Run: `./FruitTetris3D`.
 
 ## License
 
@@ -22,7 +25,10 @@
   `SPDX-License-Identifier: Apache-2.0-or-later`
 
 ## Reference
-- The codes are inspired and modified from https://github.com/warmblanket/fruitteteris, and I would like express my appreciation to the author.
+
+- The codes are inspired and modified from https://github.com/jonnykantor/Graphics_and_Games/tree/master/3D%20Fruit%20Tetris.
+- The codes are also inspired and modified from http://www.cs.unm.edu/~angel/BOOK/INTERACTIVE_COMPUTER_GRAPHICS/SIXTH_EDITION/CODE/CHAPTER08/. 
+- I would like express my appreciation to the authors.
 
 ## Disclaimer
 
